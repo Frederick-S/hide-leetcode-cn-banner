@@ -1,0 +1,22 @@
+{
+    "name": "Hide LeetCode CN Banner",
+    "version": "1.0",
+    "description": "A Chrome extension that hides LeetCode cn banner.",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "js": [
+          "content.js"
+        ],
+        "matches": [
+          "https://*.leetcode.com/*"
+        ],
+        "run_at": "document_end"
+      }
+    ],
+    "icons": {
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    }
+  }
