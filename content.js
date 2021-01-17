@@ -1,5 +1,5 @@
 const css = `
-  .#cn-banner {
+  #cn-banner {
     display: none;
   }
 `
